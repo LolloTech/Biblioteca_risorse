@@ -1,0 +1,41 @@
+CREATE TABLE IF NOT EXISTS person (
+
+name text NOT NULL,
+surname text NOT NULL,
+password text NOT NULL,
+username text PRIMARY KEY,
+is_active boolean NOT NULL
+
+);
+
+CREATE TABLE IF NOT EXISTS is_user (
+
+id_person text NOT NULL,
+FOREIGN KEY (id_person) references person(username)
+
+);
+
+CREATE TABLE IF NOT EXISTS is_operator (
+
+id_person text NOT NULL,
+is_admin boolean NOT NULL,
+FOREIGN KEY (id_person) references person(username)
+
+);
+
+CREATE TABLE IF NOT EXISTS subscription (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+id_person text NOT NULL,
+start_date text NOT NULL,
+end_date text NOT NULL,
+FOREIGN KEY (id_person) references person(username)
+
+);
+
+CREATE TABLE IF NOT EXISTS renew_subscription (
+id_sub INTEGER,,
+start_date text NOT NULL,
+end_date text NOT NULL,
+FOREIGN KEY (id_sub) references subscription(id)
+
+);

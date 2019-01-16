@@ -1,0 +1,30 @@
+prova prova 1 elemento 3 5 5 5 3
+provina sottocategoria23 prova elemento1 4 B 5 5 5 - -
+provina1 sottocategoria22 prova elemento2 4 B 3 5 5 - -
+provina2 sottocategoria3 prova elemento3 4 B 5 5 5 - -
+provina3 sottocategoria4 prova elemento4 4 B 3 5 5 - -
+provina4 sottocategoria5 prova elemento5 4 B 5 5 5 - -
+provina5 sottocategoria55 prova elemento6 4 B 5 5 5 - -
+provina6 sottocategoria6 prova elemento7 4 B 5 5 5 - -
+albero alberi 1 elemento 3 5 5 5 3
+foglia1 foglia1 alberi elemento8 3 B 5 5 5 - -
+foglia2 foglia2 alberi elemento9 3 B 5 5 5 - -
+foglia3 foglia3 alberi elemento10 3 B 5 5 5 - -
+foglia4 foglia4 alberi elemento11 3 B 7 5 5 - -
+foglia5 foglia5 alberi elemento12 3 B 7 5 5 - -
+foglia6 foglia6 alberi elemento13 3 B 5 5 5 - -
+foglia7 foglia7 alberi elemento14 3 B 9 5 5 - -
+foglia8 foglia8 alberi elemento15 3 B 5 5 5 - -
+foglia9 foglia9 alberi elemento16 3 B 5 5 5 - -
+solitario solitario 0 elementoase 22 B 5 5 5 4
+film films 1 primo 3 7 6 5 4
+moovie moovie films identificatore1 4 F 4 4 4 - -
+moovie1 moovie1 films identificatore2 4 F 4 3 4 - -
+moovie2 moovie2 films identificatore3 5 F 3 3 3 - -
+moovie3 moovie3 films identificatore4 2 F 6 6 6 - -
+moovie4 moovie4 films identificatore5 5 F 3 3 3 - -
+azione azione 1 secondo 5 4 4 4 3
+gare gare azione identificatore11 5 F 2 2 2 - -
+sport sport azione identificatore22 4 F 4 4 4 - -
+moto moto azione identificatore33 5 F 2 2 2 - -
+solitario1 solitario1 0 elementoase2 1 F 3 3 3 3
